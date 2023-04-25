@@ -39,7 +39,8 @@ python3 decisionengine.py
 
 ![image](https://user-images.githubusercontent.com/15668158/234331679-0b4793ea-da60-42a7-b1a0-c393e1176108.png)
 
-![image](https://user-images.githubusercontent.com/15668158/234341334-7e8193e6-e304-4503-ac13-bd743cc06aaa.png)
+![image](https://user-images.githubusercontent.com/15668158/234341499-16b74d86-a558-4fbe-81f5-dabe5d14d35f.png)
+
 
 
 ## `Option 2 : Run via Docker`
