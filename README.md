@@ -5,7 +5,7 @@
 T, T : Profit and Average asserts > Loan -> max(60, 100) = 100 \
 T, F : Profit and Average asserts < Loan -> max(60, 20) = 60 \
 F, T : Loss and Average asserts > Loan -> max(20, 100) = 100 \
-F, F : Loss and Average asserts < Loan -> max(20, 20) = 20 \
+F, F : Loss and Average asserts < Loan -> max(20, 20) = 20
 
 ## `Option 1 : Run via CMD`
 
