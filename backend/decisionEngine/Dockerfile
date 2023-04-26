@@ -1,6 +1,6 @@
 FROM python:3.10
 
-WORKDIR /backend/decisionEngine
+WORKDIR /app/decisionengine
 
 EXPOSE 8082
 

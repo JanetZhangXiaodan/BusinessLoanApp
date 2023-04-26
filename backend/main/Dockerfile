@@ -1,6 +1,6 @@
 FROM python:3.10
 
-WORKDIR /backend/main
+WORKDIR /app/main
 
 EXPOSE 8080
 

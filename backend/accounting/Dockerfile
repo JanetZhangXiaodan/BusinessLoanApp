@@ -1,6 +1,6 @@
 FROM python:3.10
 
-WORKDIR /backend/accounting
+WORKDIR /app/accounting
 
 EXPOSE 8081
 

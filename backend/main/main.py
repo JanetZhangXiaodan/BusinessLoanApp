@@ -8,7 +8,7 @@ from rules.rules import RuleEngine
 
 app = Flask(__name__)
 api = Api(app)
-CORS(app, allow_headers=['Content-Type', 'Access-Control-Allow-Origin',
+CORS(app, allow_headers=['Content-Type', 'Content-Length', 'Access-Control-Allow-Origin',
                          'Access-Control-Allow-Headers', 'Access-Control-Allow-Methods'])
 
 parser = reqparse.RequestParser()
@@ -32,7 +32,8 @@ class GetBalanceSheet(Resource):
 
             data = request.json
             print('>>>>>>>>>> GetBalanceSheet request', data)
-            balancesheet = requests.post('http://localhost:8081/getbalancesheets', json=data)
+            balancesheet = requests.post('http://accounting:8081/getbalancesheets', json=data)
+            #CMD: 'http://localhost:8081/getbalancesheets'
             return balancesheet.json()
 
         except Exception as e:
@@ -66,7 +67,8 @@ class FinalOutcome(Resource):
             }
             print('>>>>>>>>>> loan_request', loan_request)
 
-            loan_result = requests.post('http://localhost:8082/getfinaloutcome', json=loan_request)
+            loan_result = requests.post('http://decisionengine:8082/getfinaloutcome', json=loan_request)
+            #CMD: 'http://localhost:8082/getfinaloutcome'
             return loan_result.json()
 
         except Exception as e:

@@ -2,7 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, allow_headers=['Content-Type', 'Content-Length', 'Access-Control-Allow-Origin',
+                         'Access-Control-Allow-Headers', 'Access-Control-Allow-Methods'])
 
 @app.route('/getfinaloutcome', methods=['POST'])
 def decideLoanAmount():
