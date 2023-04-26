@@ -66,3 +66,14 @@ open webpage and key in http://localhost:3000
 ![image](https://user-images.githubusercontent.com/15668158/234503975-1d905014-b893-49b5-a7c2-94a42be582fe.png)
 
 ## `Running Unittest for backend` 
+
+1) On CMD \
+
+cd backend\main \
+python3 maintests.py
+
+cd accounting \
+python3 accountingtests.py
+
+cd decisionEngine \
+python3 decisionenginetests.py
