@@ -49,3 +49,7 @@ python3 decisionengine.py
 
 
 1) key this in: docker compose up
+
+
+![image](https://user-images.githubusercontent.com/15668158/234493752-64b25fdd-f3dc-44a6-b252-3ed7738ea56a.png)
+
