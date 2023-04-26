@@ -52,7 +52,7 @@ python3 decisionengine.py
 ### Open 1 CMD
 
 
-1) key this in: 
+1) key this in CMD \
 cd BusinessLoanApp \
 docker compose up
 
