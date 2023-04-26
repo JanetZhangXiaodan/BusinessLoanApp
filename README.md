@@ -79,6 +79,12 @@ open webpage and key in http://localhost:3000
 cd backend\main \
 python3 maintests.py
 
+cd backend\main\rules \
+python3 rulestests.py
+
+cd backend\main\model \
+python3 modeltests.py
+
 cd backend\accounting \
 python3 accountingtests.py
 
