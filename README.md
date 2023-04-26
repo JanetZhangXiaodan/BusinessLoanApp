@@ -1,6 +1,6 @@
 # BusinessLoanApp
 
-## `4 scenarios for loan payment (decisionengine.py)`
+## `4 scenarios for loan outcome (decisionengine.py)`
 
 T, T : Profit and Average asserts > Loan -> max(60, 100) = 100 \
 T, F : Profit and Average asserts < Loan -> max(60, 20) = 60 \
