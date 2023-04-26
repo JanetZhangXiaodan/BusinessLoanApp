@@ -1,28 +1,31 @@
-version: '3.10'
+version: '3'
 services:
   frontend:
     restart: always
     build: ./frontend
     ports:
-      - '3000:3000'
+      - 3000:3000
+    environment: 
+      - CHOKIDAR_USEPOLLING=true
+    stdin_open: true
     
   main:
     restart: always
     build: ./backend/main
     ports:
-      - '8080:8080'
+      - 8080:8080
     depends_on:
-      - decisionengine
       - accounting
+      - decisionengine
 
   accounting:
     restart: always
     build: ./backend/accounting
     ports:
-      - '8081:8081'  
+      - 8081:8081
 
   decisionengine:
     restart: always
-    build: ./backend/decisionEngine
+    build: ./backend/decisionengine
     ports:
-      - '8082:8082'
+      - 8082:8082
