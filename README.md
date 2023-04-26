@@ -54,7 +54,7 @@ python3 decisionengine.py
 
 1) key this in CMD \
 cd BusinessLoanApp \
-docker compose up \
+docker compose up
 
 open webpage and key in http://localhost:3000
 
