@@ -73,7 +73,7 @@ open webpage and key in http://localhost:3000
 
 ## `Running Unittest for backend` 
 
-1) On CMD \
+1) On CMD
 
 cd backend\main \
 python3 maintests.py
