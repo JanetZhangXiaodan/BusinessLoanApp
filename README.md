@@ -43,8 +43,9 @@ python3 decisionengine.py
 
 
 
-## `Option 2 : Run via Docker`
+## `Option 2 : Run via Docker` (Must to install Docker Desktop)
 
 ### Open 1 CMD
+
 
 1) key this in: docker compose up
