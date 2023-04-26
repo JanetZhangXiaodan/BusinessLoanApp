@@ -43,7 +43,11 @@ python3 decisionengine.py
 
 
 
-## `Option 2 : Run via Docker` (Must to install Docker Desktop)
+## `Option 2 : Run via Docker` (Must to install Docker Desktop) 
+
+### Code is currently modified to run in Docker, to run locally on CMD, please change URL in main.py to localhost:..
+![image](https://user-images.githubusercontent.com/15668158/234494358-fc43483f-ab86-4182-9b25-21645b38a3df.png)
+
 
 ### Open 1 CMD
 
