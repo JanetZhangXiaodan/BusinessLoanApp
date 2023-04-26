@@ -14,6 +14,7 @@ F, F : Loss and Average asserts < Loan -> max(20, 20) = 20
 1) frontend (runs on localhost:3000)
 
 cd frontend \
+npm install\
 npm start
 
 ![image](https://user-images.githubusercontent.com/15668158/234330961-c08649b5-e96f-4f30-a371-b5be8696cd0e.png)
