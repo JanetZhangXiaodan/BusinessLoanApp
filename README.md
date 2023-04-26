@@ -43,7 +43,7 @@ python3 decisionengine.py
 
 
 
-## `Option 2 : Run via Docker` (Must to install Docker Desktop) 
+## `Option 2 : Run via Docker` (Must install Docker Desktop) 
 
 ### Code is currently modified to run in Docker, to run locally on CMD, please change URL in main.py to localhost:..
 ![image](https://user-images.githubusercontent.com/15668158/234494358-fc43483f-ab86-4182-9b25-21645b38a3df.png)
@@ -62,3 +62,7 @@ open webpage and key in http://localhost:3000
 ![image](https://user-images.githubusercontent.com/15668158/234493752-64b25fdd-f3dc-44a6-b252-3ed7738ea56a.png)
 
 ![image](https://user-images.githubusercontent.com/15668158/234493972-b3b73c9b-dc52-4800-925a-7fb1592957c2.png)
+
+![image](https://user-images.githubusercontent.com/15668158/234503975-1d905014-b893-49b5-a7c2-94a42be582fe.png)
+
+## `Running Unittest for backend` 
